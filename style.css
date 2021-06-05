@@ -1,0 +1,307 @@
+* {
+    font-family: 'mulish', sans-serif;
+}
+body {
+    margin:0;
+    width : 70%;
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 78.5% 100%;
+    margin: 50px;
+    margin-bottom: 50px;
+}
+.head {
+    display: flex;
+    justify-content:space-between;
+    padding: 50px 50px 0 30px;
+    background-color: rgb(253, 238, 238);
+    margin-bottom: 0;
+}
+.head img{
+    height: 180px;
+    width: 210px;
+    border: 2px;
+    border-radius: 65%;
+    border-width: 2px;
+    margin-right: 65px ;
+    margin-top: 20px;
+    transition: 0.25s ease-in-out;
+}
+.head img:hover {
+    border-radius: 20%;
+    cursor: pointer;
+}
+.head1 {
+    margin: 20px;
+    margin-top: 0;
+}
+.head1 h1{
+    color: rgb(71, 50, 47);
+    font-size: 55px;
+    text-align:left;
+    padding-top: 20px;
+    width: 70%;
+    margin-bottom: 0;
+    margin-top: 20px;
+    transition: 0.25s ease-in-out;
+}
+.head1 h1:hover {
+    color: rgb(235, 99, 84);
+    cursor: pointer;
+}
+.head1 h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 0.25s ease-in-out;
+}
+.head1 h3:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(38, 191, 211);
+    border-radius: 5px;
+    text-align: center;
+}
+.first-content {
+    display: flex;
+    background-color: rgb(253, 238, 238);
+}
+.cont1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    margin: 20px;
+    margin-bottom: 0;
+}
+.cont2 {
+    display: flex;
+    flex-basis: 50%;
+    margin: 20px;
+    margin-bottom: 0;
+}
+.cont-profile {
+    flex-basis: 80%;
+    margin-left: 30px;
+    margin-right: 20px;
+    text-align:initial;
+    transition: 00.25s ease-in-out;
+}
+.cont-profile h3:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(235, 99, 84);
+    border-radius: 5px;
+    text-align: center;
+   
+}
+.cont-profile p{
+    font-size: 14px;
+}
+.cont-lang {
+    flex-basis: 80%;
+    margin-left: 30px;
+    margin-right: 20px;
+    transition: 0.25s ease-in-out;
+}
+.cont-lang p{
+    font-size: 14px;
+}
+.cont-lang h3:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(235, 99, 84);
+    border-radius: 5px;
+    text-align: center;
+}
+.cont-academic h4, h5, h6 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.cont-academic {
+    margin: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.cont-academic li{
+    font-size: 14px;
+}
+.cont-academic h3 {
+    margin-bottom: 15px;
+    transition: 0.25s ease-in-out;
+}
+.cont-academic h3:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(38, 191, 211);
+    border-radius: 5px;
+    text-align: center;
+}
+.cont-academic h5 {
+   font-style: italic;
+   color: rgb(59, 57, 57);
+   transition: 0.25s ease-in-out;
+}
+.cont-academic h5:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(38, 191, 211);
+    border-radius: 5px;
+    text-align: center;
+}
+.cont-academic h6 {
+    color: rgb(146, 140, 140);
+ }
+.sec-content {
+    display: flex;
+    background-color: rgb(253, 238, 238);
+}
+.cont-skills {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 30px;
+}
+.skills {
+    flex-basis: 35%;
+    margin: 20px;
+    margin-bottom: 0;
+    margin-right: 30px;
+    transition: 0.25s ease-in-out;
+}
+.skills h3:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(235, 99, 84);
+    border-radius: 5px;
+    text-align: center;
+}
+.skills p {
+    text-align: initial;
+    font-size: 14px;
+}
+.contact {
+    flex-basis: 65%;
+    margin: 20px;
+    margin-top: 0;
+    margin-right: 20px;
+    transition: 0.25s ease-in-out;
+}
+.contact h3:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(235, 99, 84);
+    border-radius: 5px;
+    text-align: center;
+}
+.contact button{
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    transition: 0.25s ease-in-out;
+    padding: 10px;
+    padding-left: 0;
+}
+.wa:hover {
+    background-color: rgb(238, 121, 121);
+    border-radius: 10px 10px 10px 0;
+    color: white;
+    cursor: pointer;
+}
+.email:hover {
+    background-color: rgb(238, 121, 121);
+    border-radius: 10px 10px 10px 0;
+    color: white;
+    cursor: pointer;
+}
+.link:hover {
+    background-color: rgb(38, 191, 211);
+    border-radius: 10px 10px 10px 0;
+    color: white;
+    cursor: pointer;
+}
+.ig:hover {
+    background-color: rgb(238, 121, 121);
+    border-radius: 10px 10px 10px 0;
+    color: white;
+    cursor: pointer;
+}
+.git:hover {
+    background-color: rgb(38, 191, 211);
+    border-radius: 10px 10px 10px 0;
+    color: white;
+    cursor: pointer;
+}
+.cont-prof {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 0;
+}
+.cont-prof1 {
+    flex-basis: 60;
+    background-color: rgb(253, 238, 238);
+    margin: 20px;
+    margin-bottom: 0;
+    transition: 0.25s ease-in-out;
+}
+.cont-prof1 h3:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(38, 191, 211);
+    border-radius: 5px;
+    text-align: center;
+}
+.cont-prof1 li{
+    font-size: 14px;
+}
+.cont-prof1 h4 {
+    margin-bottom: 2px;
+    margin-top: 10px;
+    transition: 0.25s ease-in-out;
+}
+.cont-prof1 h4:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(38, 191, 211);
+    border-radius: 5px;
+    text-align: center;
+}
+.cont-prof1 h5 {
+    margin-top: 2px;
+    font-style: italic;
+    color: rgb(59, 57, 57);
+}
+.cont-prof1 h6 {
+    color: rgb(146, 140, 140);
+}
+.cont-prof2 {
+    flex-basis: 40%;
+    background-color: rgb(253, 238, 238);
+    margin: 20px;
+    margin-top: 0;
+}
+.cont-prof2 li{
+    font-size: 14px;
+}
+.cont-prof2 h4 {
+    margin-bottom: 2px;
+    margin-top: 10px;
+    transition: 0.25s ease-in-out;
+}
+.cont-prof2 h4:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(38, 191, 211);
+    border-radius: 5px;
+    text-align: center;
+}
+.cont-prof2 h5 {
+    margin-top: 2px;
+    font-style: italic;
+    color: rgb(59, 57, 57);
+}
+.cont-prof2 h6 {
+    color: rgb(146, 140, 140);
+}
